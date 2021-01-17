@@ -1,14 +1,14 @@
 local function craft_under_mouse(event)
     local player = game.players[event.player_index]
     if player.selected then
-        player.begin_crafting{count=1, recipe=player.selected.name, silent=false}
+        pcall(player.begin_crafting, {count=1, recipe=player.selected.name, silent=false})
     end
 end
 
 local function craft_five_under_mouse(event)
     local player = game.players[event.player_index]
     if player.selected then
-        player.begin_crafting{count=5, recipe=player.selected.name, silent=false}
+        pcall(player.begin_crafting, {count=5, recipe=player.selected.name, silent=false})
     end
 end
 
