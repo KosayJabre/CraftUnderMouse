@@ -13,4 +13,4 @@ local function craft_five_under_mouse(event)
 end
 
 script.on_event("craft-under-mouse", craft_under_mouse)
-script.on_event("craft-5-under-mouse", craft_under_mouse)
+script.on_event("craft-5-under-mouse", craft_five_under_mouse)
