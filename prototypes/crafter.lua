@@ -7,6 +7,6 @@ data:extend {
     {
         type = 'custom-input',
         name = 'craft-5-under-mouse',
-        key_sequence = 'ALT + SHIFT + Q'
+        key_sequence = 'SHIFT + ALT + Q'
     }
 }
