@@ -1,9 +1,9 @@
 {
     "name": "craft-under-mouse",
     "title": "Craft Under Mouse",
-    "description": "Press ALT+Q to craft whatever your mouse is hovering over.\nPress ALT+SHIFT+Q to craft 5 at a time.",
+    "description": "Press ALT+Q to try and craft whatever your mouse is hovering over.",
     "version": "1.2.0",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "author": "Kosay Jabre",
     "contact": "kosay.jabre@gmail.com",
     "dependencies": [

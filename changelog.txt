@@ -1,7 +1,12 @@
+Version: 1.3.0
+Date: 2024-10-27
+Changes: 
+  - Updated for Factorio 2.0
+  - Removed multiple crafting
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2021-02-13
-  Changes:
+Changes:
     - Can now craft ghost entities under mouse.
     - Added a setting to change the number of items crafted when pressing multiple craft hotkey.
     - Now says "not enough ingredients" if you try to craft something you normally cannot.
